@@ -42,7 +42,7 @@ a:active {
   color: inherit;
 }
 
-button {
+button{
   border: 0px;
   background-color: #bdae82;
   cursor: pointer;
@@ -54,6 +54,19 @@ button {
   margin-top: 25px;
   outline-style: none;
 }
+
+.hero-button, .portfolio-button{
+  text-align: center;
+  color: black;
+  width: 220px;
+  height: 55px;
+}
+.hero-button a, .portfolio-button a{
+  display: block;
+  line-height: 55px;
+}
+
+
 
 .container {
   width: 1440px;
@@ -74,7 +87,7 @@ button {
   display: inline-flex;
 }
 
-.eng {
+.eng{
   color: #bdae82;
 }
 
@@ -234,12 +247,14 @@ button {
   margin-right: 20px;
 }
 
-/* portfolio - доработать */
+/* portfolio */
 
 .portfolio-button {
   border: 2px solid #bdae82;
   background-color: rgba(0, 0, 0, 0);
   color: #bdae82;
+  width: 216px;
+  height: 51px;
 }
 .autumn {
   background-color: #bdae82;
@@ -254,10 +269,12 @@ button {
 
 .btn-portfolio {
   text-align: center;
+  width: 895px;
   height: 55px;
-  margin: 0;
-  margin-bottom: 60px;
+  margin: 0 auto 60px;
   padding: 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 .items {
@@ -342,6 +359,8 @@ video {
   cursor: pointer;
   transition: 0.3s;
   border: none;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .toggle-icon:hover,
