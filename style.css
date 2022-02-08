@@ -55,13 +55,13 @@ button{
   outline-style: none;
 }
 
-.hero-button, .portfolio-button{
+.hero-button, .portfolio-button, .btn-price{
   text-align: center;
   color: black;
   width: 220px;
   height: 55px;
 }
-.hero-button a, .portfolio-button a{
+.hero-button a, .portfolio-button a, .btn-price a{
   display: block;
   line-height: 55px;
 }
@@ -432,6 +432,17 @@ input[type="range"]::-webkit-slider-thumb {
 .btn-price {
   margin-top: 40px;
   margin-bottom: 43px;
+  border: 0px;
+  background-color: #bdae82;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 20px;
+  line-height: 40px;
+  width: 220px;
+  height: 55px;
+  outline-style: none;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Contacts */
