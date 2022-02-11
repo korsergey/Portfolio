@@ -156,3 +156,4 @@ function setProgresVol(){
 }
 
 
+///adaptive 768px///
